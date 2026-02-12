@@ -1,5 +1,4 @@
 name = "los-cedros-landing"
 compatibility_date = "2026-02-12"
 
-[site]
-bucket = "./dist"
+pages_build_output_dir = "./dist"

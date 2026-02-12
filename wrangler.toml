@@ -1,0 +1,5 @@
+name = "los-cedros-landing"
+compatibility_date = "2026-02-12"
+
+[site]
+bucket = "./dist"

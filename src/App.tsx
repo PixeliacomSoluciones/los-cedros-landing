@@ -1,4 +1,3 @@
-import { ScrollProvider } from './providers/ScrollProvider'
 import { AnimationProvider } from './providers/AnimationProvider'
 import { ReducedMotionProvider } from './providers/ReducedMotionProvider'
 import Navigation from './components/Navigation'
@@ -13,16 +12,14 @@ function App() {
   return (
     <ReducedMotionProvider>
       <AnimationProvider>
-        <ScrollProvider>
-          <div className="min-h-screen">
-            <Navigation />
-            <HeroSection {...heroContent} />
-            <StickyScrollSection stickyImage={stickyImage} features={features} />
-            <ImmersiveGallery images={galleryImages} />
-            <AmenitiesGrid amenities={amenities} />
-            <Footer />
-          </div>
-        </ScrollProvider>
+        <div className="min-h-screen">
+          <Navigation />
+          <HeroSection {...heroContent} />
+          <StickyScrollSection stickyImage={stickyImage} features={features} />
+          <ImmersiveGallery images={galleryImages} />
+          <AmenitiesGrid amenities={amenities} />
+          <Footer />
+        </div>
       </AnimationProvider>
     </ReducedMotionProvider>
   )

@@ -14,7 +14,6 @@
     "react-dom": "^18.2.0",
     "framer-motion": "^10.16.16",
     "gsap": "^3.12.5",
-    "@studio-freight/lenis": "^1.0.34",
     "@react-three/fiber": "^8.15.16",
     "@react-three/drei": "^9.96.1",
     "three": "^0.161.0"
